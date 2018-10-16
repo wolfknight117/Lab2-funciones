@@ -14,8 +14,7 @@ public class JavaApplication1 {
                 M[i][j]=0;
             }
         }
-}
-    public void AsiganrTurno(String nom1, String nom2){
+        public void AsiganrTurno(String nom1, String nom2){
         int a= (int) Math.floor(Math.random()*(100-1+1)+1);
         System.out.println("su numero es:"+a);
         if ((a%2)==0) {
@@ -24,9 +23,10 @@ public class JavaApplication1 {
             System.out.println(nom2+"juega segundo");
         }
     
-    
+        }
     
     }
+}
+    
             
     
-}
